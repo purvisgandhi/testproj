@@ -14,7 +14,6 @@
 <script language="javascript" type="text/javascript" src="../admin/script/search-menu.js"></script>
 </head><?php
 include_once('common.php');
-
 checklogin();
 $where = array();$wherecond = '';
 $start = 0;$limit = 100;
